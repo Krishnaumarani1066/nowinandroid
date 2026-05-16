@@ -111,7 +111,7 @@ Then create a Pull Request for review.
 
 👨‍💻 Maintainers & Credits
 
-Developed and maintained by the tech ecosystem at:
+Developed and maintained by the tech ecosystem Student Krishna(KT)
 
 Institution: Sri Venkateshwara College of Engineering
 Based on architectural concepts inspired by Google’s Now in Android framework.
