@@ -1,61 +1,51 @@
-# NammaSkills App
+# Moonwing (NammaSkills App)
 
-A skills and learning platform app built for SVCE Bengaluru students.
+[![Platform](https://img.shields.io/badge/Platform-Android-brightgreen.svg)](https://developer.android.com)
+[![Language](https://img.shields.io/badge/Language-Kotlin-purple.svg)](https://kotlinlang.org)
+[![Compose](https://img.shields.io/badge/UI-Jetpack%20Compose-blue.svg)](https://developer.android.com/jetpack/compose)
+[![License](https://img.shields.io/badge/License-Apache%202.0-lightgrey.svg)](LICENSE)
 
-Built with Kotlin and Jetpack Compose.
+**Moonwing** (formerly Namma Skills) is a dedicated skills and learning platform built exclusively for the students of **Sri Venkateshwara College of Engineering (SVCE), Bengaluru**. Designed to bridge the gap between academic learning and industry trends, the app empowers students to discover, track, and master modern skills.
 
-## App Details
+---
 
-- App Name: Namma Skills
-- Package: com.google.samples.apps.nowinandroid
-- College: Sri Venkateshwara College of Engineering, Bengaluru
-- Built with: Kotlin, Jetpack Compose, Firebase
+## 📱 Features
 
-## Features
+- **Skill Discovery:** Browse the latest industry-relevant skills, courses, and learning content.
+- **Personalized Feed:** Follow specific topics of interest to customize your learning dashboard.
+- **Instant Notifications:** Stay updated with real-time alerts whenever new content or learning materials are published.
+- **Bookmarks:** Save articles, tutorials, and resources to read later, even offline.
 
-- Browse latest skills and learning content
-- Follow topics you are interested in
-- Get notified when new content is published
-- Save bookmarks for later reading
+---
 
-## Screenshots
+## 🛠️ Tech Stack & Architecture
 
-Coming soon...
+Moonwing is built using modern Android development practices, leveraging a robust and scalable architecture.
 
-## Development Setup
+*   **UI Layer:** [Jetpack Compose](https://developer.android.com/jetpack/compose) – Android’s modern toolkit for building native UI using declarative APIs.
+*   **Design System:** Material 3 – Adhering to the latest Material Design guidelines for a sleek, modern look.
+*   **Dependency Injection:** [Hilt](https://developer.android.com/training/dependency-injection/hilt-android) – For clean, modular, and testable code.
+*   **Local Persistence:** [Room Database](https://developer.android.com/training/data-storage/room) – Caches data locally for offline support and bookmark management.
+*   **Networking:** [Retrofit](https://square.github.io/retrofit/) – Handles Type-safe HTTP client requests for fetching remote learning content.
+*   **Backend Integration:** [Firebase](https://firebase.google.com/)
+    *   **Authentication:** Secure student login and onboarding.
+    *   **Analytics:** To understand user engagement and improve content delivery.
+    *   **Crashlytics:** For real-time crash reporting and stability monitoring.
 
-1. Clone the project
-2. Open in Android Studio
-3. Select demoDebug build variant
-4. Click Run
+---
 
-## Build Variants
+## 🚀 Getting Started & Development Setup
 
-- demoDebug → for testing
-- demoRelease → for production
+Follow these steps to get a local copy of the project up and running on your machine.
 
-## Firebase Setup
+### Prerequisites
+*   Android Studio (Latest stable version recommended)
+*   JDK 17 or higher
+*   An Android Device or Emulator running API 26+
 
-This app uses Firebase for:
-- Analytics
-- Crashlytics
-- Authentication
+### Setup Instructions
 
-## Tech Stack
-
-- Kotlin
-- Jetpack Compose
-- Firebase
-- Room Database
-- Hilt
-- Retrofit
-- Material 3
-
-## Developer
-
-SVCE Bengaluru
-Bengaluru, Karnataka, India
-
-## License
-
-Apache License Version 2.0
+1.  **Clone the Repository**
+    ```bash
+    git clone [https://github.com/your-username/moonwing.git](https://github.com/your-username/moonwing.git)
+    cd moonwing
